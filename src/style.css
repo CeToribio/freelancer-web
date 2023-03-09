@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  display: flex;
+  background: #2c3e50;
+  color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-around;
+  height: 8vh;
+  width: 100vw;
+  align-items: center;
+}
+
+header h1{
+  font-size: 1rem;
+}
+
+header nav ul{
+  display: flex;
+  list-style: none;
+  font-size: 0.7rem;
+  margin: auto;
+  gap: 8px;  
+}
+
+/*-------------- section START --------------*/
+.start{
+  margin: auto;
+  padding-top: 40px;
+  color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #18bc9c;
+  height: 50vh;
+  text-align: center;
+}
+
+.start img{
+  height: 45%;
+  width: 13%;
+}
+
+.start h2{
+  padding-top: 20px;
+  font-size: 3rem;
+}
+
+.start h3{
+  padding-top: 10px;
+  font-size: 1rem;
+}
+
+/*-------------- section PORTFOLIO --------------*/
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+    margin: auto;
+  padding-top: 40px;
+}
+
+.portfolio h2{
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  
+}
+
+.div-img{
+  padding-top: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.portfolio img {
+  height: 45%;
+  width: 25%;
+}
+
+/*--------------section ABOUT-------------*/
+.about{
+  background-color: #18bc9c;
+  display:flex;
+  flex-direction: column;
+    height: 40vh;
+ margin: auto;
+  padding-top: 40px; 
+  font-family: 'Montserrat', sans-serif;
+
+}
+.about h2{
+    font-size: 2rem;
+  color: white;
+  margin-bottom:-3px;
+
+}
+.line-star-line-about{
+  justify-content: center;
+  display:inline-flex;
+}
+.about hr {
+  height: 5px;
+  width: 6%;
+  background-color: white;
+  margin:10px
+}
+.paragraphs{
+  display:flex;
+  color: white;
+  width:40%;
+  margin-left:auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  gap:8px;
+
+  }
+.btn-download{
+width: 100px;
+    margin: 10px auto;
+background-color:transparent;
+  color: white;
+  border-color: white;
+}
+.about h2{
+  margin-top:20px;
+}
+
+
+
+/*--------section CONTACT ME----------------*/
+.form-contact-me{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+     width: 40vh;
+  
+}
+.line-star-line-contact-me{
+  justify-content: center;
+  display:inline-flex;
+}
+.contact-me hr {
+  height: 5px;
+  width: 6%;
+  background-color: black;
+  margin:10px
+}
